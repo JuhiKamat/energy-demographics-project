@@ -141,13 +141,12 @@ demographic-energy-project/
 │   └── 06_results_summary.ipynb      # Three-tier table, key findings
 │
 ├── data/
-│   └── processed/
-│       ├── actuals_final.csv          # Merged panel: 7 countries, 1960-2024
-│       ├── model_df.csv               # Actuals with lag features
-│       ├── age_clean.csv              # UN age-structure projections, calibrated
-│       ├── forecast_df.csv            # IND + IDN 10-year forecasts
-│       ├── forecast_ind_ext.csv       # India extended forecast to 2065
-│       └── three_tier_results.csv     # Country classification table
+│  ├── actuals_final.csv          # Merged panel: 7 countries, 1960-2024
+│  ├── model_df.csv               # Actuals with lag features
+│  ├── age_clean.csv              # UN age-structure projections, calibrated
+│  ├── forecast_df.csv            # IND + IDN 10-year forecasts
+│  ├── forecast_ind_ext.csv       # India extended forecast to 2065
+│  └── three_tier_results.csv     # Country classification table
 │
 ├── outputs/
 │   ├── india_demographic_energy_forecast.png
@@ -159,7 +158,6 @@ demographic-energy-project/
 │   ├── eda_within_country_heatmap.png
 │   └── eda_simpsons_paradox.png
 │
-├── requirements.txt
 └── README.md
 ```
 
